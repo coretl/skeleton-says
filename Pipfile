@@ -7,3 +7,9 @@ name = "pypi"
 jinja2 = "*"
 
 [dev-packages]
+pytest = "*"
+
+[scripts]
+tests = "pytest"
+# Delete any files that git ignore hides from us
+gitclean = "git clean -fdX"
