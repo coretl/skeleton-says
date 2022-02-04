@@ -22,4 +22,4 @@ l42 ==' '==
 """
 
 def test_say_command_says_hello():
-    assert say("Hello") == skeleton_saying_hello
+    assert say.say("Hello") == skeleton_saying_hello
