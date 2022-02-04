@@ -8,5 +8,8 @@ def say(text):
     template = Template(template_path.read_text())
     return template.render(text=text)
 
-if __name__ == "__main__":
+def main():
     print(say(sys.argv[1]))
+
+if __name__ == "__main__":
+    main()
