@@ -22,5 +22,5 @@ l42 ==' '==
 """
 
 
-def test_say_command_says_hello():
+def test_say_command_says_hello() -> None:
     assert say.say("Hello") == skeleton_saying_hello
