@@ -1,4 +1,6 @@
-import sys, subprocess
+import subprocess
+import sys
+
 from skeleton_says import __version__
 
 
