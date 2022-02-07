@@ -64,6 +64,9 @@ jobs:
             pipenv: "deploy"
 
     runs-on: ${{ matrix.os }}
+    env:
+      # https://github.com/pytest-dev/pytest/issues/2042
+      PY_IGNORE_IMPORTMISMATCH: "1"
 
     steps:
       - name: Setup repo and test
